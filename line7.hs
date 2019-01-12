@@ -1,4 +1,5 @@
-import System.cmd
+import System.Process
 
 main = do putStrLn "But suddenly, a spooky SPECTRE appeared."
-          system "jshell line8.java"
+          system "javac Line8.java"
+          system "java Line8"
