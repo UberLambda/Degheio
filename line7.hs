@@ -1,5 +1,5 @@
 import System.Process
 
 main = do putStrLn "But suddenly, a spooky SPECTRE appeared."
-          system "javac Line8.java"
-          system "java Line8"
+          system "csc Line8.cs"
+          system "mono Line8.exe" -- FIXME What if .NET [core]?
