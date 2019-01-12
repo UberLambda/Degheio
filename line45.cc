@@ -50,7 +50,7 @@ int main(int argc, char** argv)
 int main(int argc, char** argv)
 {
     puts("The dark, and scary, Kernel Lands.");
-    // FIXME RUN LINE 6
+    system("ruby line6.rb");
     return 0;
 }
 
