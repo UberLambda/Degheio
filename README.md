@@ -2,10 +2,10 @@ Degheio
 =======
 A joke program made for challenge 2 of University of Glasgow TechSoc's 2019 "Hacker Olympics".
 
-"Ruby-Go-Perl: Make a Rube Goldberg type program, which incorporates as many programming languages as possible."
+> Ruby-Go-Perl: Make a Rube Goldberg type program, which incorporates as many programming languages as possible.
 
-This repo contains the state of the program as of the competition's deadline.
-No further changes or bug fixes have been made; the Java and Love2D code are still mostly broken.
+**This repo contains the state of the program as of the competition's deadline.
+No further changes or bug fixes have been made; the Java and Love2D code are still mostly broken.**
 
 ## Sequence
 Tested on Linux.
