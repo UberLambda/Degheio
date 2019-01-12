@@ -1,8 +1,5 @@
-// C preamble
-#include <stdio.h>
-#include <stdlib.h>
-
-#ifdef __cplusplus // C++, line 4
+#ifdef __cplusplus
+// C++, line 4
 #include <iostream>
 
 int main(int argc, char** argv)
@@ -15,10 +12,15 @@ int main(int argc, char** argv)
     return 0;
 }
 
+#else
+// C, line 6
+#include <stdio.h>
+#include <stdlib.h>
 
-#else // C, line 6
-
-// TODO IMPLEMENT
-
+int main(int argc, char** argv)
+{
+    puts("The dark, and scary, Kernel Lands.");
+    return 0;
+}
 
 #endif

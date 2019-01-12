@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.0)
+project(line6 C) #< Set C, otherwise CMake will try to compile C++!
+
+# Line 5
+message("He decided he would go where many other processes wouldn't:")
+
+add_executable(line6 line46.cc)
+
+add_custom_command(TARGET line6
+    POST_BUILD
+    COMMAND "$<TARGET_FILE:line6>"
+    WORKING_DIRECTORY "${PROJECT_SOURCE_DIR}"
+)
