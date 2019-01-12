@@ -32,6 +32,8 @@ public sealed class Line9
         Process p2 = new Process();
         p2.StartInfo.FileName = "java";
         p2.StartInfo.Arguments = "Line9";
+        p2.StartInfo.UseShellExecute = false;
+        //p2.StartInfo.RedirectStandardOutput = true;
         p2.Start();
         p2.WaitForExit();
     }
